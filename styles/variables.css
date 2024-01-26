@@ -8,9 +8,14 @@
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
   --main-header-color: #DB00FF;
-  --text-shadow: 4px 4px 0px var(--accent-color);
+  --title-decor: #000028;
+  --section-title-decor: #FF0070;
+  --text-shadow: 4px 4px 0px #FF0070;
   --main-section-padding: 2.5rem 0.625rem;
   --header-footer-section-padding: 0.625rem;
   --bg-image: url('../images/cover-image-dark.png');
-  --font-family: 'IBM Plex Mono', sans-serif;
+  --font-family: 'IBM Plex Mono', 'Arial', sans-serif;
+  --hover-border: rgba(255, 0, 112, 0.40);
+  --menu-button: #FF0070;
+  --decorative: block;
 }
