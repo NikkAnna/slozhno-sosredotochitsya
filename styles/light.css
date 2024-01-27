@@ -3,31 +3,34 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+
 :root .theme_light {
   --main-color: #FFF1F7;
   --text-color: #353430;
   --accent-color: #FF8DCB;
   --main-header-color: #FFC2E6;
-  --bg-image: url('../images/cover-image-light.png');
+  --bg-image: url(../images/cover-image-light.png);
   --title-decor: #353430;
   --section-title-decor: #353430;
-  --hover-border: rgba(50, 49, 45, 0.40);
+  --hover-border: rgb(50 49 45 / 0.40);
   --menu-button: #353430;
   --decorative: none;
-  
+  --corner-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
+
 :root {
   --main-color: #FFF1F7;
   --text-color: #353430;
   --accent-color: #FF8DCB;
   --main-header-color: #FFC2E6;
-  --bg-image: url('../images/cover-image-light.png');
+  --bg-image: url(../images/cover-image-light.png);
   --title-decor: #353430;
   --section-title-decor: #353430;
-  --hover-border: rgba(50, 49, 45, 0.40);
+  --hover-border: rgb(50 49 45 / 0.40);
   --menu-button: #353430;
   --decorative: none;
+  --corner-color: #353430;
   }
 }

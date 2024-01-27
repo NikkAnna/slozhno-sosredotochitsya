@@ -3,15 +3,17 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+
 :root .theme_dark {
   --main-color: #000028;
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
   --main-header-color: #DB00FF;
-  --bg-image: url('../images/cover-image-dark.png');
+  --bg-image: url(../images/cover-image-dark.png);
   --title-decor: #000028;
   --section-title-decor: #FF0070;
-  --hover-border: rgba(255, 0, 112, 0.40);
+  --hover-border: rgb(255 0 112 / 0.40);
   --menu-button: #FF0070;
   --decorative: block;
+  --corner-color: #FF0070;
 }
