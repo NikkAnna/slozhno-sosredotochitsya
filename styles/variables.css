@@ -14,7 +14,7 @@
   --main-section-padding: 2.5rem 0.625rem;
   --header-footer-section-padding: 0.625rem;
   --bg-image: url(../images/cover-image-dark.png);
-  --font-family: 'IBM Plex Mono', 'Arial', sans-serif;
+  --font-family: 'IBM Plex Mono', 'Courier', monospace;
   --hover-border: rgb(255 0 112 / 0.40);
   --menu-button: #FF0070;
   --decorative: block;
